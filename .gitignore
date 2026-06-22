@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+.vite/
+
+# env / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# raw data
+data/raw/
+raw/
+downloads/
+temp/
+tmp/
+backup/
+archive/
+_archive_local_only/
+local_unused_data/
+cache/
+
+# large geospatial originals
+*.zip
+*.7z
+*.rar
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.gpkg
+*.pbf
+
+# logs
+*.log
+logs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

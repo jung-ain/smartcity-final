@@ -1,0 +1,170 @@
+[
+  {
+    "region_group": "pangyo_full",
+    "building_count": 1372,
+    "core_count": 545,
+    "support_count": 827,
+    "total_floor_area_m2": 4637152.879799999,
+    "average_far_percent": 43.008046837920936,
+    "average_bcr_percent": 12.057526119253296,
+    "approval_year_median": 2011.0,
+    "top_uses": [
+      {
+        "main_use_group": "업무",
+        "floor_area_m2": 2356477.82,
+        "share": 0.5081734161202887
+      },
+      {
+        "main_use_group": "교육연구",
+        "floor_area_m2": 1191577.29,
+        "share": 0.25696312390101594
+      },
+      {
+        "main_use_group": "주거",
+        "floor_area_m2": 758304.3168,
+        "share": 0.1635279958319394
+      },
+      {
+        "main_use_group": "상업",
+        "floor_area_m2": 151912.21,
+        "share": 0.032759801959893975
+      },
+      {
+        "main_use_group": "근린생활",
+        "floor_area_m2": 98341.253,
+        "share": 0.02120724840200685
+      },
+      {
+        "main_use_group": "공공문화",
+        "floor_area_m2": 45551.62,
+        "share": 0.009823187024613397
+      }
+    ]
+  },
+  {
+    "region_group": "pangyo_core",
+    "building_count": 545,
+    "core_count": 545,
+    "support_count": 0,
+    "total_floor_area_m2": 3467321.248,
+    "average_far_percent": 65.47711493726936,
+    "average_bcr_percent": 18.520115479704796,
+    "approval_year_median": 2012.0,
+    "top_uses": [
+      {
+        "main_use_group": "업무",
+        "floor_area_m2": 2097549.48,
+        "share": 0.6049481227647701
+      },
+      {
+        "main_use_group": "교육연구",
+        "floor_area_m2": 1184008.14,
+        "share": 0.34147633152911705
+      },
+      {
+        "main_use_group": "상업",
+        "floor_area_m2": 102743.45999999999,
+        "share": 0.02963194138970073
+      },
+      {
+        "main_use_group": "주거",
+        "floor_area_m2": 62758.198000000004,
+        "share": 0.018099908693548317
+      },
+      {
+        "main_use_group": "근린생활",
+        "floor_area_m2": 15631.829999999998,
+        "share": 0.004508330460875715
+      },
+      {
+        "main_use_group": "공공문화",
+        "floor_area_m2": 4030.66,
+        "share": 0.001162470885074448
+      }
+    ]
+  },
+  {
+    "region_group": "wirye_full",
+    "building_count": 2000,
+    "core_count": 1559,
+    "support_count": 441,
+    "total_floor_area_m2": 1617161.5446000001,
+    "average_far_percent": 58.32348476526526,
+    "average_bcr_percent": 18.20807920970971,
+    "approval_year_median": 2010.0,
+    "top_uses": [
+      {
+        "main_use_group": "주거",
+        "floor_area_m2": 530023.9796,
+        "share": 0.3277495568515387
+      },
+      {
+        "main_use_group": "근린생활",
+        "floor_area_m2": 397364.359,
+        "share": 0.2457171705120448
+      },
+      {
+        "main_use_group": "업무",
+        "floor_area_m2": 300519.526,
+        "share": 0.18583148171157668
+      },
+      {
+        "main_use_group": "기타",
+        "floor_area_m2": 205915.88,
+        "share": 0.12733166991732583
+      },
+      {
+        "main_use_group": "교육연구",
+        "floor_area_m2": 146613.66,
+        "share": 0.09066110957780933
+      },
+      {
+        "main_use_group": "상업",
+        "floor_area_m2": 34121.659999999996,
+        "share": 0.021099722605906934
+      }
+    ]
+  },
+  {
+    "region_group": "wirye_core",
+    "building_count": 1559,
+    "core_count": 1559,
+    "support_count": 0,
+    "total_floor_area_m2": 1411469.3526,
+    "average_far_percent": 54.5389809344894,
+    "average_bcr_percent": 17.662324113680153,
+    "approval_year_median": 2015.0,
+    "top_uses": [
+      {
+        "main_use_group": "근린생활",
+        "floor_area_m2": 377014.479,
+        "share": 0.2671078038680186
+      },
+      {
+        "main_use_group": "주거",
+        "floor_area_m2": 360553.9276,
+        "share": 0.2554458068365713
+      },
+      {
+        "main_use_group": "업무",
+        "floor_area_m2": 298111.166,
+        "share": 0.21120626207778703
+      },
+      {
+        "main_use_group": "기타",
+        "floor_area_m2": 204083.96000000002,
+        "share": 0.14458972107617266
+      },
+      {
+        "main_use_group": "교육연구",
+        "floor_area_m2": 135949.2,
+        "share": 0.09631750044701608
+      },
+      {
+        "main_use_group": "상업",
+        "floor_area_m2": 33968.84,
+        "share": 0.024066296542271798
+      }
+    ]
+  }
+]

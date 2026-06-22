@@ -1,0 +1,486 @@
+{
+  "version": "v35",
+  "source": "raw AL_D162 / AL_D164",
+  "rows": [
+    {
+      "region_group": "pangyo_full",
+      "region_id": "pangyo",
+      "scope": "full",
+      "record_count": 12337,
+      "unique_pnu_count": 399,
+      "total_floor_area_m2": 68258807.6901,
+      "site_area_m2": 41125868.370000005,
+      "building_area_m2": 12402896.6218,
+      "floor_count_median": 21.0,
+      "approval_year_median": 2009.0,
+      "use_rows": [
+        {
+          "main_use_group": "주거",
+          "record_count": 10613,
+          "unique_pnu_count": 216,
+          "total_floor_area_m2": 51954363.3009,
+          "share_floor_area": 0.7611378671713198,
+          "share_count": 0.860257761206128
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 319,
+          "unique_pnu_count": 40,
+          "total_floor_area_m2": 10150543.11,
+          "share_floor_area": 0.14870671571182742,
+          "share_count": 0.025857177595849882
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 237,
+          "unique_pnu_count": 35,
+          "total_floor_area_m2": 5350567.512,
+          "share_floor_area": 0.07838647777576148,
+          "share_count": 0.01921050498500446
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 867,
+          "unique_pnu_count": 32,
+          "total_floor_area_m2": 401689.4872,
+          "share_floor_area": 0.005884800816089547,
+          "share_count": 0.0702764043122315
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 11,
+          "unique_pnu_count": 8,
+          "total_floor_area_m2": 187274.29,
+          "share_floor_area": 0.00274359157942282,
+          "share_count": 0.000891626813649996
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 62,
+          "unique_pnu_count": 13,
+          "total_floor_area_m2": 111145.51,
+          "share_floor_area": 0.0016282955088317507,
+          "share_count": 0.0050255329496636135
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 10,
+          "unique_pnu_count": 4,
+          "total_floor_area_m2": 61703.52,
+          "share_floor_area": 0.0009039642221724486,
+          "share_count": 0.0008105698305909054
+        },
+        {
+          "main_use_group": "상업",
+          "record_count": 1,
+          "unique_pnu_count": 1,
+          "total_floor_area_m2": 41520.96,
+          "share_floor_area": 0.0006082872145746847,
+          "share_count": 8.105698305909054e-05
+        }
+      ],
+      "use_rows_by_count": [
+        {
+          "main_use_group": "주거",
+          "record_count": 10613,
+          "share_count": 0.860257761206128
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 867,
+          "share_count": 0.0702764043122315
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 319,
+          "share_count": 0.025857177595849882
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 237,
+          "share_count": 0.01921050498500446
+        },
+        {
+          "main_use_group": "nan",
+          "record_count": 217,
+          "share_count": 0.01758936532382265
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 62,
+          "share_count": 0.0050255329496636135
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 11,
+          "share_count": 0.000891626813649996
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 10,
+          "share_count": 0.0008105698305909054
+        }
+      ]
+    },
+    {
+      "region_group": "pangyo_core",
+      "region_id": "pangyo",
+      "scope": "core",
+      "record_count": 1738,
+      "unique_pnu_count": 193,
+      "total_floor_area_m2": 19411967.2214,
+      "site_area_m2": 4032264.5700000003,
+      "building_area_m2": 1986168.2217,
+      "floor_count_median": 21.0,
+      "approval_year_median": 2009.0,
+      "use_rows": [
+        {
+          "main_use_group": "업무",
+          "record_count": 309,
+          "unique_pnu_count": 32,
+          "total_floor_area_m2": 9873108.61,
+          "share_floor_area": 0.5086093798425416,
+          "share_count": 0.17779056386651323
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 159,
+          "unique_pnu_count": 24,
+          "total_floor_area_m2": 4937459.132,
+          "share_floor_area": 0.2543513017349876,
+          "share_count": 0.09148446490218642
+        },
+        {
+          "main_use_group": "주거",
+          "record_count": 1098,
+          "unique_pnu_count": 102,
+          "total_floor_area_m2": 4457944.2394,
+          "share_floor_area": 0.2296492770957034,
+          "share_count": 0.6317606444188723
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 6,
+          "unique_pnu_count": 5,
+          "total_floor_area_m2": 102743.45999999999,
+          "share_floor_area": 0.005292789691440149,
+          "share_count": 0.0034522439585730723
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 62,
+          "unique_pnu_count": 4,
+          "total_floor_area_m2": 18815.77,
+          "share_floor_area": 0.0009692871302222917,
+          "share_count": 0.03567318757192175
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 14,
+          "unique_pnu_count": 4,
+          "total_floor_area_m2": 12578.210000000001,
+          "share_floor_area": 0.0006479616340034626,
+          "share_count": 0.00805523590333717
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 2,
+          "unique_pnu_count": 1,
+          "total_floor_area_m2": 9317.8,
+          "share_floor_area": 0.00048000287110148927,
+          "share_count": 0.0011507479861910242
+        },
+        {
+          "main_use_group": "nan",
+          "record_count": 88,
+          "unique_pnu_count": 25,
+          "total_floor_area_m2": 0.0,
+          "share_floor_area": 0.0,
+          "share_count": 0.05063291139240506
+        }
+      ],
+      "use_rows_by_count": [
+        {
+          "main_use_group": "주거",
+          "record_count": 1098,
+          "share_count": 0.6317606444188723
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 309,
+          "share_count": 0.17779056386651323
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 159,
+          "share_count": 0.09148446490218642
+        },
+        {
+          "main_use_group": "nan",
+          "record_count": 88,
+          "share_count": 0.05063291139240506
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 62,
+          "share_count": 0.03567318757192175
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 14,
+          "share_count": 0.00805523590333717
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 6,
+          "share_count": 0.0034522439585730723
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 2,
+          "share_count": 0.0011507479861910242
+        }
+      ]
+    },
+    {
+      "region_group": "wirye_full",
+      "region_id": "wirye",
+      "scope": "full",
+      "record_count": 3164,
+      "unique_pnu_count": 962,
+      "total_floor_area_m2": 5653183.6676,
+      "site_area_m2": 13958264.899999999,
+      "building_area_m2": 843652.378,
+      "floor_count_median": 21.0,
+      "approval_year_median": 2005.0,
+      "use_rows": [
+        {
+          "main_use_group": "주거",
+          "record_count": 1349,
+          "unique_pnu_count": 469,
+          "total_floor_area_m2": 3655576.1396,
+          "share_floor_area": 0.6466402569849524,
+          "share_count": 0.42635903919089757
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 551,
+          "unique_pnu_count": 104,
+          "total_floor_area_m2": 563783.8690000001,
+          "share_floor_area": 0.09972856042714576,
+          "share_count": 0.17414664981036662
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 98,
+          "unique_pnu_count": 14,
+          "total_floor_area_m2": 459879.42199999996,
+          "share_floor_area": 0.08134874949060994,
+          "share_count": 0.030973451327433628
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 82,
+          "unique_pnu_count": 16,
+          "total_floor_area_m2": 459399.81,
+          "share_floor_area": 0.08126391021628232,
+          "share_count": 0.025916561314791402
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 67,
+          "unique_pnu_count": 10,
+          "total_floor_area_m2": 363112.086,
+          "share_floor_area": 0.06423143264937568,
+          "share_count": 0.021175726927939318
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 9,
+          "unique_pnu_count": 6,
+          "total_floor_area_m2": 111026.58,
+          "share_floor_area": 0.019639655551317893,
+          "share_count": 0.0028445006321112516
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 20,
+          "unique_pnu_count": 12,
+          "total_floor_area_m2": 36390.05,
+          "share_floor_area": 0.006437089636510787,
+          "share_count": 0.006321112515802781
+        },
+        {
+          "main_use_group": "상업",
+          "record_count": 2,
+          "unique_pnu_count": 2,
+          "total_floor_area_m2": 4015.711,
+          "share_floor_area": 0.0007103450438051711,
+          "share_count": 0.0006321112515802782
+        }
+      ],
+      "use_rows_by_count": [
+        {
+          "main_use_group": "주거",
+          "record_count": 1349,
+          "share_count": 0.42635903919089757
+        },
+        {
+          "main_use_group": "nan",
+          "record_count": 986,
+          "share_count": 0.3116308470290771
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 551,
+          "share_count": 0.17414664981036662
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 98,
+          "share_count": 0.030973451327433628
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 82,
+          "share_count": 0.025916561314791402
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 67,
+          "share_count": 0.021175726927939318
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 20,
+          "share_count": 0.006321112515802781
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 9,
+          "share_count": 0.0028445006321112516
+        }
+      ]
+    },
+    {
+      "region_group": "wirye_core",
+      "region_id": "wirye",
+      "scope": "core",
+      "record_count": 2573,
+      "unique_pnu_count": 720,
+      "total_floor_area_m2": 4630132.5356,
+      "site_area_m2": 5603990.0,
+      "building_area_m2": 562605.128,
+      "floor_count_median": 21.0,
+      "approval_year_median": 2004.0,
+      "use_rows": [
+        {
+          "main_use_group": "주거",
+          "record_count": 1079,
+          "unique_pnu_count": 321,
+          "total_floor_area_m2": 3235575.3596,
+          "share_floor_area": 0.6988083677351397,
+          "share_count": 0.41935483870967744
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 513,
+          "unique_pnu_count": 78,
+          "total_floor_area_m2": 536614.029,
+          "share_floor_area": 0.11589604074486007,
+          "share_count": 0.19937815779246015
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 65,
+          "unique_pnu_count": 9,
+          "total_floor_area_m2": 360703.726,
+          "share_floor_area": 0.07790354233418458,
+          "share_count": 0.025262339681305868
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 35,
+          "unique_pnu_count": 12,
+          "total_floor_area_m2": 232830.06,
+          "share_floor_area": 0.05028583052641029,
+          "share_count": 0.013602798289933929
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 43,
+          "unique_pnu_count": 7,
+          "total_floor_area_m2": 171307.29,
+          "share_floor_area": 0.036998355594112804,
+          "share_count": 0.01671200932763311
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 5,
+          "unique_pnu_count": 3,
+          "total_floor_area_m2": 54032.03,
+          "share_floor_area": 0.011669650832791593,
+          "share_count": 0.00194325689856199
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 15,
+          "unique_pnu_count": 9,
+          "total_floor_area_m2": 35054.33,
+          "share_floor_area": 0.007570912869226852,
+          "share_count": 0.0058297706956859695
+        },
+        {
+          "main_use_group": "상업",
+          "record_count": 2,
+          "unique_pnu_count": 2,
+          "total_floor_area_m2": 4015.711,
+          "share_floor_area": 0.0008672993632739758,
+          "share_count": 0.000777302759424796
+        }
+      ],
+      "use_rows_by_count": [
+        {
+          "main_use_group": "주거",
+          "record_count": 1079,
+          "share_count": 0.41935483870967744
+        },
+        {
+          "main_use_group": "nan",
+          "record_count": 816,
+          "share_count": 0.31713952584531674
+        },
+        {
+          "main_use_group": "생활서비스",
+          "record_count": 513,
+          "share_count": 0.19937815779246015
+        },
+        {
+          "main_use_group": "업무",
+          "record_count": 65,
+          "share_count": 0.025262339681305868
+        },
+        {
+          "main_use_group": "기타",
+          "record_count": 43,
+          "share_count": 0.01671200932763311
+        },
+        {
+          "main_use_group": "교육",
+          "record_count": 35,
+          "share_count": 0.013602798289933929
+        },
+        {
+          "main_use_group": "산업·물류",
+          "record_count": 15,
+          "share_count": 0.0058297706956859695
+        },
+        {
+          "main_use_group": "공공",
+          "record_count": 5,
+          "share_count": 0.00194325689856199
+        }
+      ]
+    }
+  ]
+}

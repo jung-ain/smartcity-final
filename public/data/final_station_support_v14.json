@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "version": "v14_final",
+    "project": "Pangyo vs Wirye business district comparison",
+    "building_source": "VWorld GIS건물통합정보 WFS v11",
+    "building_source_note": "세움터 건축물대장 속성이 건물 단위로 통합된 공간 기반 건물정보",
+    "buildinghub_direct_api_used": false,
+    "register_summary_join_used": false,
+    "register_summary_join_excluded_reason": "PNU exact match 0%",
+    "live_wfs_confirmed": true,
+    "fallback_used": false,
+    "dashboard_ready": true,
+    "tabs": [
+      "Overview",
+      "Land Use",
+      "Transport & Isochrone",
+      "Socio-demographics",
+      "Methodology & Data Notes"
+    ],
+    "data_files": {
+      "core": "data/final_core_performance_v14.json",
+      "station": "data/final_station_support_v14.json",
+      "accessibility": "data/final_accessibility_v14.json",
+      "sources": "data/final_indicator_sources_v14.json",
+      "buildings": "data/final_building_v11_summary_v14.json",
+      "landuse_share": "data/final_landuse_share_v14.json",
+      "industry_composition": "data/final_industry_composition_v14.json",
+      "building_use_composition": "data/final_building_use_composition_v14.json"
+    }
+  },
+  "rows": [
+    {
+      "region_id": "pangyo_station_support_zone",
+      "region_label": "판교 station support",
+      "area_km2": 2.360862706693882,
+      "population": 212.37742025899527,
+      "workers": 48637.82291016931,
+      "businesses": 1339.5356153289838,
+      "population_density_per_km2": 89.9575480000722,
+      "worker_density_per_km2": 20601.7159626707,
+      "business_density_per_km2": 567.3924246128018,
+      "bus_stop_count": 4,
+      "bus_stop_density_per_km2": 1.6942958981301974,
+      "route_id_count": 20,
+      "regional_or_express_route_count": 7,
+      "road_density_km_per_km2": 29.7808635451635,
+      "intersection_density_per_km2": 274.475935497092,
+      "station_area_500m_share": 0.3321400776136926,
+      "station_area_800m_share": 0.8502785986905698,
+      "office_floor_area_share_v11": 0.2213381250441923,
+      "residential_floor_area_share_v11": 0.5945694234047809,
+      "commercial_floor_area_share_v11": 0.0420306210427434,
+      "primary_interpretation": "노선 다양성·광역 연결성 중심",
+      "caveat": "정류장 수와 고용성은 별개이며, 역세권 효과는 핵심역 기준으로 해석해야 한다."
+    },
+    {
+      "region_id": "wirye_station_support_zone",
+      "region_label": "위례 station support",
+      "area_km2": 2.32815466764898,
+      "population": 1173.8522659782825,
+      "workers": 3167.909332619672,
+      "businesses": 361.7732501104476,
+      "population_density_per_km2": 504.19857507304846,
+      "worker_density_per_km2": 1360.6953939270256,
+      "business_density_per_km2": 155.3905567948258,
+      "bus_stop_count": 30,
+      "bus_stop_density_per_km2": 12.885741835311414,
+      "route_id_count": 7,
+      "regional_or_express_route_count": 1,
+      "road_density_km_per_km2": 33.73825987243569,
+      "intersection_density_per_km2": 206.60139409282635,
+      "station_area_500m_share": 0.336806284192641,
+      "station_area_800m_share": 0.8622240875326687,
+      "office_floor_area_share_v11": 0.0117085630552276,
+      "residential_floor_area_share_v11": 0.8239012397709292,
+      "commercial_floor_area_share_v11": 0.0007429547933448,
+      "primary_interpretation": "정류장 수는 많지만 고용 중심성은 약한 주거지원형",
+      "caveat": "정류장 수와 고용성은 별개이며, 역세권 효과는 핵심역 기준으로 해석해야 한다."
+    }
+  ]
+}
