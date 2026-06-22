@@ -776,6 +776,31 @@ function getSubwayCandidateTravelTime(row: Subway750CurveCandidateRow) {
   return Number(row.min_travel_time_min ?? row.travel_time_min ?? row.selected_travel_time_min ?? 0);
 }
 
+function getSubwayStationKey(row: Subway750CurveCandidateRow) {
+  return `${String(row.origin_region_id ?? '')}|${String(row.origin_station_name ?? '')}|${normalizeStationLabel(row.station_norm ?? row.station_name ?? row.node_id ?? '')}`;
+}
+
+function pickEarliestSubwayRows(rows: Subway750CurveCandidateRow[]) {
+  const bestRows = new Map<string, Subway750CurveCandidateRow>();
+  for (const row of rows) {
+    const key = getSubwayStationKey(row);
+    if (!key.replace(/\|/g, '').trim()) continue;
+    const current = bestRows.get(key);
+    if (!current) {
+      bestRows.set(key, row);
+      continue;
+    }
+    const currentThreshold = Number(current.threshold_min ?? Number.POSITIVE_INFINITY);
+    const nextThreshold = Number(row.threshold_min ?? Number.POSITIVE_INFINITY);
+    const currentTravel = getSubwayCandidateTravelTime(current);
+    const nextTravel = getSubwayCandidateTravelTime(row);
+    if (nextThreshold < currentThreshold || (nextThreshold === currentThreshold && nextTravel < currentTravel)) {
+      bestRows.set(key, row);
+    }
+  }
+  return Array.from(bestRows.values());
+}
+
 function buildSubwayReachStationsFromCsv(rows: Subway750CurveCandidateRow[]): GeoJson {
   return {
     type: 'FeatureCollection',
@@ -900,10 +925,19 @@ function buildSubwayDashboardFromCsv(rows: Subway750CurveCandidateRow[]): Subway
       if (lineOrder !== 0) return lineOrder;
       return Number(a.threshold_min ?? 0) - Number(b.threshold_min ?? 0);
     });
+  const earliestRows = pickEarliestSubwayRows(numericRows).sort((a, b) => {
+    const regionOrder = a.origin_region_id.localeCompare(b.origin_region_id);
+    if (regionOrder !== 0) return regionOrder;
+    const stationOrder = String(a.origin_station_name ?? '').localeCompare(String(b.origin_station_name ?? ''));
+    if (stationOrder !== 0) return stationOrder;
+    const thresholdOrder = Number(a.threshold_min ?? 0) - Number(b.threshold_min ?? 0);
+    if (thresholdOrder !== 0) return thresholdOrder;
+    return String(a.station_name ?? '').localeCompare(String(b.station_name ?? ''));
+  });
 
   const stationBuckets = new Map<string, Subway750CurveCandidateRow[]>();
   for (const row of numericRows) {
-    const key = `${row.origin_region_id}|${row.origin_station_name}|${normalizeStationLabel(row.station_name ?? '')}`;
+    const key = getSubwayStationKey(row);
     const bucket = stationBuckets.get(key) ?? [];
     bucket.push(row);
     stationBuckets.set(key, bucket);
@@ -930,7 +964,7 @@ function buildSubwayDashboardFromCsv(rows: Subway750CurveCandidateRow[]): Subway
   return {
     table,
     selected: [],
-    candidates: numericRows,
+    candidates: earliestRows,
   };
 }
 
