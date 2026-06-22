@@ -18,6 +18,8 @@
 | `public/data/pangyo_bokjeong_mode_accessibility_curve_v30.json` | `src/App.tsx` | 접근성 곡선 기본 데이터 | 유지 |
 | `public/data/buildings_gis_summary_v35.json` | `src/App.tsx` | 건축물 GIS 용도 구성 요약 | 유지 |
 | `public/data/buildings_summary_v35.json` | `src/App.tsx` | 건축물 요약 통계 | 유지 |
+| `public/data/building_register_boundary_office_far_summary.json` | `src/App.tsx` | 건축물대장 기반 경계별 업무 용적률 요약 | 유지 |
+| `public/data/planning_boundary_population_workers_area_v2.json` | `src/App.tsx` | 택지/업무지구 경계별 인구·종사자 면적배분 요약 | 유지 |
 | `public/data/final_core_performance_v14.json` | `src/App.tsx` | core 구역 성과 지표 | 유지 |
 | `public/data/final_station_support_v14.json` | `src/App.tsx` | station/support 구역 성과 지표 | 유지 |
 | `public/data/sgis_core_key_indicators_v2.json` | `src/App.tsx` | SGIS 기반 핵심 인구사회 지표 | 유지 |

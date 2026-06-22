@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source_csv": "D:\\smart_3\\smartcity-final\\data\\processed\\v11\\planning_boundary_population_workers_area_v2.csv",
+    "methodology_note": "SGIS ???? ??? ????? ?? ??? ??? ??(full) ? ????(core) ?????? ??."
+  },
+  "rows": [
+    {
+      "region_id": "pangyo",
+      "region_name": "Pangyo",
+      "area_type": "core",
+      "boundary_area_m2": 432906.97584601433,
+      "boundary_area_km2": 0.4329069758460143,
+      "split_polygons": 4,
+      "source_blocks": 4,
+      "population_total": 169.89447108566708,
+      "worker_total": 26902.89378866478,
+      "coverage_ratio": 1.0000000000000002
+    },
+    {
+      "region_id": "pangyo",
+      "region_name": "Pangyo",
+      "area_type": "full",
+      "boundary_area_m2": 8914773.3924644,
+      "boundary_area_km2": 8.914773392464399,
+      "split_polygons": 210,
+      "source_blocks": 210,
+      "population_total": 86698.95381841552,
+      "worker_total": 120578.0500507851,
+      "coverage_ratio": 0.9999999743697664
+    },
+    {
+      "region_id": "wirye",
+      "region_name": "Wirye",
+      "area_type": "core",
+      "boundary_area_m2": 427828.3526056362,
+      "boundary_area_km2": 0.4278283526056362,
+      "split_polygons": 15,
+      "source_blocks": 15,
+      "population_total": 648.0873381257458,
+      "worker_total": 1367.0526430135778,
+      "coverage_ratio": 1.000000075953721
+    },
+    {
+      "region_id": "wirye",
+      "region_name": "Wirye",
+      "area_type": "full",
+      "boundary_area_m2": 6748465.490703304,
+      "boundary_area_km2": 6.748465490703304,
+      "split_polygons": 262,
+      "source_blocks": 262,
+      "population_total": 119406.85924616724,
+      "worker_total": 26860.73473659922,
+      "coverage_ratio": 1.0000000265768991
+    }
+  ]
+}

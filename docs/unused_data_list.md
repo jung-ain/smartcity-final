@@ -8,7 +8,6 @@
 | `boundaries_core_comparison_v2.geojson` | local only |
 | `buildings_full_pangyo_v35.geojson.tmp` | local only |
 | `buildings_summary_v35.csv` | local only |
-| `building_register_boundary_office_far_summary.json` | local only |
 | `bus_access_pangyo_bokjeong_0_60min_stations.geojson` | local only |
 | `bus_access_pangyo_bokjeong_0_60min_station_population_workers_500m.csv` | local only |
 | `final_building_use_composition_v14.json` | local only |
@@ -20,7 +19,6 @@
 | `integrated_region_indicators_v2.json` | local only |
 | `manifest_v35.json` | local only |
 | `planning_boundary_population_workers_area_compare_v2.json` | local only |
-| `planning_boundary_population_workers_area_v2.json` | local only |
 | `sgis_analysis_key_indicators_v2.json` | local only |
 | `sgis_industry_summary_v2.json` | local only |
 | `subway_nodes_2023_v2.geojson` | local only |

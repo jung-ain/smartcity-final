@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "source_csv": "D:\\smart_3\\smartcity-final\\data\\processed\\v12\\building_register_boundary_office_far_summary.csv",
+    "methodology_note": "?? ??? = ?(??? ? ????) / ?(????). ???? ??? = ?? ???? ??????? ??? ??? ???? ??."
+  },
+  "rows": [
+    {
+      "area_name": "wirye",
+      "region_label": "?? ??",
+      "boundary_rows": 287,
+      "boundary_site_area_m2": 1382591.4,
+      "boundary_weighted_far_percent": 106.68,
+      "office_rows": 32,
+      "office_site_area_m2": 330210.7,
+      "office_weighted_far_percent": 165.07
+    },
+    {
+      "area_name": "pangyo",
+      "region_label": "?? ??",
+      "boundary_rows": 92,
+      "boundary_site_area_m2": 401731.1,
+      "boundary_weighted_far_percent": 290.67,
+      "office_rows": 56,
+      "office_site_area_m2": 224071.5,
+      "office_weighted_far_percent": 300.03
+    }
+  ]
+}
