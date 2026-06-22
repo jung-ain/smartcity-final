@@ -2419,7 +2419,11 @@ function App() {
   const planFunctionSlices = useMemo(() => {
     if (!left || !right) return { left: [], right: [] };
     const summarize = (region: RegionData) => summarizeByKey((scopeMode === 'planning' ? region.planningLanduse : region.scopeLanduse).features, (props) => String(props.category_group ?? props.planned_use_group ?? props.zone_group ?? 'unknown'), (props) => Number(props.area_m2 ?? 0));
-    return { left: summarize(left), right: summarize(right) };
+    const withCoreFallback = (region: RegionData, slices: Slice[]) => {
+      if (scopeMode !== 'core' || region.id !== 'pangyo' || slices.length > 0) return slices;
+      return [{ label: '업무지구', value: 1, share: 1, color: LANDUSE_COLORS['업무·도시지원'] ?? '#65b8ff' }];
+    };
+    return { left: withCoreFallback(left, summarize(left)), right: withCoreFallback(right, summarize(right)) };
   }, [left, right, scopeMode]);
 
   const ratioSummary = useMemo(() => {
