@@ -787,7 +787,7 @@ input[type='range'] {
 
 .analysis-drawer .pie-comparison {
   height: calc(100% - 76px);
-  gap: 12px;
+  gap: 18px;
 }
 
 .analysis-drawer .curve-svg {
@@ -835,15 +835,7 @@ input[type='range'] {
 }
 
 .analysis-drawer .donut-panel svg {
-  height: 118px;
-}
-
-.analysis-drawer .donut-total {
-  font-size: 22px;
-}
-
-.analysis-drawer .donut-subtotal {
-  font-size: 11px;
+  height: 166px;
 }
 
 .analysis-drawer .donut-mini-row {
@@ -1012,14 +1004,15 @@ input[type='range'] {
 .pie-comparison {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 6px;
+  gap: 12px;
   min-height: 0;
 }
 
 .donut-panel {
   min-height: 0;
   display: grid;
-  gap: 6px;
+  gap: 8px;
+  justify-items: center;
 }
 
 .donut-label {
@@ -1030,24 +1023,13 @@ input[type='range'] {
 
 .donut-panel svg {
   width: 100%;
-  height: 84px;
-}
-
-.donut-total {
-  fill: var(--text);
-  font-size: 18px;
-  font-weight: 900;
-}
-
-.donut-subtotal {
-  fill: var(--muted);
-  font-size: 9px;
-  font-weight: 700;
+  height: 120px;
 }
 
 .donut-mini-legend {
   display: grid;
   gap: 4px;
+  width: 100%;
 }
 
 .donut-mini-row {

@@ -1213,11 +1213,11 @@ function ToggleButton({
 
 function DonutPanel({ label, slices }: { label: string; slices: Slice[] }) {
   const total = slices.reduce((sum, item) => sum + item.value, 0);
-  const viewBox = 144;
-  const cx = 72;
-  const cy = 72;
-  const outer = 52;
-  const inner = 30;
+  const viewBox = 164;
+  const cx = 82;
+  const cy = 82;
+  const outer = 68;
+  const inner = 38;
   let cursor = -90;
   const paths = slices.map((slice, index) => {
     const share = total > 0 ? slice.value / total : 0;
@@ -1245,12 +1245,6 @@ function DonutPanel({ label, slices }: { label: string; slices: Slice[] }) {
       <svg viewBox={`0 0 ${viewBox} ${viewBox}`} aria-label={label}>
         <circle cx={cx} cy={cy} r={inner - 2} fill="#f8fbff" />
         {paths}
-        <text x={cx} y={cy - 2} textAnchor="middle" className="donut-total">
-          {formatCompactNumber(total, 1)}
-        </text>
-        <text x={cx} y={cy + 14} textAnchor="middle" className="donut-subtotal">
-          {total > 0 ? '합계' : '데이터 없음'}
-        </text>
       </svg>
       <div className="donut-mini-legend">
         {slices.slice(0, 4).map((slice) => (
@@ -2615,7 +2609,7 @@ function App() {
             <button type="button" className={`drawer-tab ${analysisTab === 'accessibility' ? 'active' : ''}`} onClick={() => setAnalysisTab('accessibility')}>접근성 곡선</button>
             <button type="button" className={`drawer-tab ${analysisTab === 'planning' ? 'active' : ''}`} onClick={() => setAnalysisTab('planning')}>토지이용계획 비율</button>
             <button type="button" className={`drawer-tab ${analysisTab === 'buildingUse' ? 'active' : ''}`} onClick={() => setAnalysisTab('buildingUse')}>건축물 용도 비율</button>
-            <button type="button" className={`drawer-tab ${analysisTab === 'ratio' ? 'active' : ''}`} onClick={() => setAnalysisTab('ratio')}>용적률/건폐율</button>
+            <button type="button" className={`drawer-tab ${analysisTab === 'ratio' ? 'active' : ''}`} onClick={() => setAnalysisTab('ratio')}>용적률</button>
             <button type="button" className={`drawer-tab ${analysisTab === 'society' ? 'active' : ''}`} onClick={() => setAnalysisTab('society')}>인구사회</button>
           </div>
         </div>
